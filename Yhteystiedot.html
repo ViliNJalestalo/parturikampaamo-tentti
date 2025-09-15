@@ -2,17 +2,44 @@
 <html>
     <title>Aurora</title>
     <head>
-
+        <h1>Varaa Aikasi Nyt!</h2>
     </head>
     <body>
+        <div id="ajanvaraus">
+        <form onclick="alert">
+            <label for="fname">Etunimi:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Sukunimi</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="päivä">Päivä:</label><br>
+            <input type="date" name="päivä"><br>
+            <label for="aika">Aika:</label><br>
+            <input type="datetime" id="aika" name="aika"><br>
+            <input type="submit" value="Lähetä">
+        </form>
+    </div>
+        <h1>Ota Yhteyttä Tarvittaessa!</h1>
+        <p id="teksti">Laita sähköposti viestiä osoitteeseen: Aurorakampaamo@gmail.com tai Soita numeroon 040 850 2205</p>
         <style>
+            body {
+                background-color: yellow;
+            }
+            #ajanvaraus {
+                text-align: center;
+            }
+            #teksti {
+                text-align: center;
+                text-size-adjust: 100px;
+            }
+            h1 {
+                text-align: center;
+            }
             a:hover {
                 font-size: large;
                 color: black;
             }
             #linkki {
                 text-align: center;
-                text-anchor: end;
             }
         </style>
         <div id="linkki">
