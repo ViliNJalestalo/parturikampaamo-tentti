@@ -1,0 +1,1 @@
+# parturikampaamo-tentti
