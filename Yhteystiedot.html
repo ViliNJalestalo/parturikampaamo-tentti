@@ -6,7 +6,7 @@
     </head>
     <body>
         <div id="ajanvaraus">
-        <form onclick="alert">
+        <form onclick="myfunction()">
             <label for="fname">Etunimi:</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Sukunimi</label><br>
@@ -17,6 +17,11 @@
             <input type="datetime" id="aika" name="aika"><br>
             <input type="submit" value="Lähetä">
         </form>
+        <script>
+            function myfunction() {
+                alert("Kiitos ajanvarauksesta");
+            }
+        </script>
     </div>
         <h1>Ota Yhteyttä Tarvittaessa!</h1>
         <p id="teksti">Laita sähköposti viestiä osoitteeseen: Aurorakampaamo@gmail.com tai Soita numeroon 040 850 2205</p>
