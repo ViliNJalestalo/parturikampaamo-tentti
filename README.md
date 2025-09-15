@@ -1,4 +1,2 @@
 # parturikampaamo-tentti
-öö mitäköhä tänne pitäis kirjottaa
-no ainaki tehtävä sujui hyvin paitsi kohdat joista en tiennyt miten tehdään.
-:)
+en tiiä miten saa noi sivut toimimaan mut ne on siellä
